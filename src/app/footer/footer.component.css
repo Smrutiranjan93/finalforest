@@ -1,0 +1,199 @@
+
+.footer {
+  position: relative;
+  /* margin-top: 45px; */
+  padding-top: 30px;
+  background: #f5f5f5;
+  /* color: #ffffff; */
+  color: black;
+
+    /* color: #666666;
+    background: #dddddd; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.container a{
+  text-decoration: none;
+}
+
+.footer .footer-contact,
+.footer .footer-link,
+.footer .newsletter {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.footer h2 {
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: green;
+}
+
+.footer h2::after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background: green;
+}
+
+.footer .footer-link a {
+  display: block;
+  margin-bottom: 10px;
+  /* color: #ffffff; */
+  color: black;
+  transition: .3s;
+}
+
+.footer .footer-link a::before {
+  position: relative;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.footer .footer-link a:hover {
+  /* color: green; */
+  background-color: green;
+  letter-spacing: 1px;
+}
+
+.footer .footer-contact p i {
+  width: 25px;
+}
+
+.footer .footer-social {
+  position: relative;
+  margin-top: 20px;
+}
+
+.footer .footer-social a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 7px 0;
+  text-align: center;
+  border: 1px solid rgba(256, 256, 256, .3);
+  border-radius: 60px;
+  transition: .3s;
+}
+
+.footer .footer-social a i {
+  font-size: 15px;
+  /* color: #ffffff; */
+  color: black;
+}
+
+.footer .footer-social a:hover {
+  /* background: green; */
+  border-color: green;
+}
+
+.footer .footer-social a:hover i {
+  color: white;
+  background-color: green;
+}
+
+.footer .newsletter .form {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.footer .newsletter input {
+  height: 50px;
+  border: 2px solid #121518;
+  border-radius: 0;
+}
+
+.footer .newsletter .btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 40px;
+  padding: 8px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: green;
+  /* background: #121518; */
+  border-radius: 0;
+  border: 2px solid green;
+  transition: .3s;
+}
+
+.footer .newsletter .btn:hover {
+  color: #121518;
+  background-color: green;
+}
+
+.footer .footer-menu .f-menu {
+  position: relative;
+  padding: 15px 0;
+  font-size: 0;
+  text-align: center;
+  border-top: 1px solid rgba(256, 256, 256, .1);
+  border-bottom: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .footer-menu .f-menu a {
+  /* color: #ffffff; */
+  color: black;
+  font-size: 16px;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu .f-menu a:hover {
+  /* color: green; */
+ background-color: green;
+}
+
+.footer .footer-menu .f-menu a:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+
+.footer .copyright {
+  padding: 30px 15px;
+}
+
+.footer .copyright p {
+  margin: 0;
+  /* color: #ffffff; */
+  color: black;
+}
+
+.footer .copyright .col-md-6:last-child p {
+  text-align: right;
+}
+
+.footer .copyright p a {
+  color: green;
+  /* background-color: green; */
+  font-weight: 500;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.footer .copyright p a:hover {
+  color: black;
+  /* color: #ffffff; */
+}
+
+@media (max-width: 768px) {
+  .footer .copyright p,
+  .footer .copyright .col-md-6:last-child p {
+      margin: 5px 0;
+      text-align: center;
+  }
+}
